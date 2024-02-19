@@ -1,0 +1,19 @@
+ML - end to end 
+PRJ_1
+# Ensure base python is selected in python interpretor
+1. python -m venv mini_venv (to create virtual enviroment)
+2. .\mini_venv\Scripts\Activate.ps1 (to activate virtual environment)
+
+- Initialize the git
+   - git init
+   - git add README.md
+   - git commit -m "first commit"
+   - git status
+   - git branch -M main 
+   - git remote add origin https://github.com/TS0713/mini-1.git
+   - git remote -v 
+   - git config --global user.name "TS0713"
+   - git config --global user.email "tsp.0713@gmail.com"
+   - git pull --rebase origin main
+   - git push origin main
+   
